@@ -14,19 +14,42 @@ array objects functions
 */      
 
 
-let dataTypeString = "Moin"
-let dataTypeNumber = 2026
-let dataTypeBoolean = false
-let dataTypeNull = null
-let dataTypeUndefined = 
+//let dataTypeString = "Moin"
+//let dataTypeNumber = 2026
+//let dataTypeBoolean = false
+//let dataTypeNull = null
+//let dataTypeUndefined = 
 //let dataTypeSymbol = Symbol('123')
 //let dataTypeBigint = 4646445445444464n
 
-console.log(typeof dataTypeString);
-console.log(typeof dataTypeNumber);
-console.log(typeof dataTypeBoolean);
-console.log(typeof dataTypeNull);
-console.log(typeof dataTypeUndefined);
+//console.log(typeof dataTypeString);
+//console.log(typeof dataTypeNumber);
+//console.log(typeof dataTypeBoolean);
+//console.log(typeof dataTypeNull);
+//console.log(typeof dataTypeUndefined);
 //console.log(typeof dataTypeSymbol);
 //console.log(typeof dataTypeBigint);
 
+
+//==============================================//
+
+// stack(primitive) we receive copy 
+// heap memory(non primitive) we receive reference, chane occurs in original value
+
+/*let user = "moin"
+let user2 = user
+user2 = "ahmad"
+
+console.log(user)
+console.log(user2)*/
+
+/* let userone = {
+    name: "moin",
+    email: "moin@gmail.com"
+}
+
+let usertwo = userone
+usertwo.email = "ahmad@gmail.com"
+
+console.log(userone)
+console.log(usertwo) */
