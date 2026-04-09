@@ -35,7 +35,7 @@ const secondNumber = new Number(100)
 const min = 11
 const max = 20
 
-console.log(Math.round(Math.random() * ((max - min) ) + min))
+console.log(Math.round(Math.random() * ((max - min) + min)))
 
 
 
