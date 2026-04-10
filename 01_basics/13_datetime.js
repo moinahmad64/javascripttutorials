@@ -32,8 +32,21 @@ let myTimeStamp = Date.now()
 //console.log(myTimeStamp);
 //console.log(myCreatedDate4.getTime());
 
-console.log(Date.now()); // current time is in miliseconds
-console.log(Math.floor(Date.now()/1000)); //to convert in seconds will divide by 1000 and wrap up with math.floor to avoid decimal value
+//console.log(Date.now()); // current time is in miliseconds
+//console.log(Math.floor(Date.now()/1000)); //to convert in seconds will divide by 1000 and wrap up with math.floor to avoid decimal value
 
+let newDate = new Date()
 
+console.log(newDate);
+console.log(newDate.getMonth());
+console.log(newDate.getDay()); //weekday
+console.log(newDate.getDate());
+
+// `${newDate.getDay()} and the time is {newDate.getTime()}`
+
+// TO CUSTOMIZE DATE AND TIME
+
+newDate.toLocaleString('default', {
+    weekday: "long"
+})
 
