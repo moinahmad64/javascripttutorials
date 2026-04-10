@@ -37,16 +37,18 @@ let myTimeStamp = Date.now()
 
 let newDate = new Date()
 
-console.log(newDate);
-console.log(newDate.getMonth());
-console.log(newDate.getDay()); //weekday
-console.log(newDate.getDate());
+//console.log(newDate);
+//console.log(newDate.getMonth());
+//console.log(newDate.getDay()); //weekday
+//console.log(newDate.getDate());
 
 // `${newDate.getDay()} and the time is {newDate.getTime()}`
 
-// TO CUSTOMIZE DATE AND TIME
+/* TO CUSTOMIZE DATE AND TIME
 
 newDate.toLocaleString('default', {
     weekday: "long"
 })
+
+*/
 
