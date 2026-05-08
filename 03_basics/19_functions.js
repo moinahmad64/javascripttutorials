@@ -52,7 +52,7 @@ console.log(justLoggedIn("moin"));
 */
 
 
-//function justLoggedIn(username = "ahmad"){
+//function justLoggedIn(username = "ahmad"){    //for default value of username
 function justLoggedIn(username){
     if(username === undefined)
         // if(!username)
