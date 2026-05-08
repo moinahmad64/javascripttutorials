@@ -1,9 +1,12 @@
 
 
-const alnguageCourse = {
+const course = {
     languageName: "english",
-    price: 1099
+    price: 1099,
     courseInstructor: "ali"
 }
 
-course.courseInstructor
+//console.log(course.courseInstructor)
+
+const {courseInstructor: instructor} = course
+console.log(instructor)
