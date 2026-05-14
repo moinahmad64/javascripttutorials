@@ -30,9 +30,11 @@ map.set('usa', "United States of America")
 
 //console.log(map)
 
+
 //for (const key of map) {
 //    console.log(key)    
 //}
+
 
 //for (const [key, value] of map) {
 //    console.log(key , value)    
@@ -72,6 +74,7 @@ const myLangs = {
 //    console.log(key);
 //}
 
+
 //for (const key in myLangs) {
 //    console.log(`${key} is shortcut for ${myLangs[key]}`)
 //}
@@ -87,9 +90,44 @@ const programmingLangs = ["js", "java", "c++", "python"]
 
 //=================================================
 
-const mravel = ["spiderman", "docstrange", "ironman", "wanda"]
+const marvel = ["spiderman", "docstrange", "ironman", "wanda"]
 
-//mravel.forEach( function (hero) {
+//marvel.forEach( function (hero) {
   //  console.log(hero)
 //})
+
+
+//marvel.forEach( (item) => {
+  //  console.log(item)
+//})
+
+
+//function printMe(item){
+  //  console.log(item)
+//}
+//marvel.forEach(printMe);
+
+//marvel.forEach( (item, index, arr) => {
+  //  console.log(item, index, arr)
+
+//})
+
+//=======================================
+
+const myCoding = [
+    {languageName: "javascript",
+    languageFileName: "js"
+    },
+    {languageName: "hypetext",
+    languageFileName: "html"
+    },
+    {languageName: "cascadingstyle",
+    languageFileName: "css"
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageFileName);
+    console.log(item.languageName);
+})
 
