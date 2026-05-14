@@ -79,3 +79,17 @@ const myLangs = {
 //===========================================
 
 const programmingLangs = ["js", "java", "c++", "python"]
+
+//for (const key in programmingLangs) {
+          // console.log(key)
+          //  console.log(programmingLangs[key])    
+//}
+
+//=================================================
+
+const mravel = ["spiderman", "docstrange", "ironman", "wanda"]
+
+//mravel.forEach( function (hero) {
+  //  console.log(hero)
+//})
+
